@@ -238,7 +238,7 @@ ul {
 
 #h1suplementos {
     text-align: center;
-    padding: 60x 20px;
+    padding: 60px 20px;
     max-width: 1000px;
     margin: auto;
     margin-top: 80px;
@@ -251,7 +251,6 @@ ul {
 #proteinas h2 {
     text-align: center;
     padding: 20px 10px;
-    max-width: 100;
     margin: 20;
     border: #ffffff;
     border-radius: 5%;
@@ -305,7 +304,6 @@ ul {
     font-size: 25px;
     background-color: white;
     border-radius: 5px;
-    max-width: 100;
     padding: 20px 10px;
     margin: 20;
 }
@@ -344,7 +342,6 @@ ul {
     font-size: 25px;
     background-color: white;
     border-radius: 5px;
-    max-width: 100;
     padding: 20px 10px;
     margin: 20;
 }
@@ -382,7 +379,6 @@ ul {
     font-size: 25px;
     background-color: white;
     border-radius: 5px;
-    max-width: 100;
     padding: 20px 10px;
     margin: 20;
 }
@@ -420,7 +416,6 @@ ul {
     font-size: 25px;
     background-color: white;
     border-radius: 5px;
-    max-width: 100;
     padding: 20px 10px;
     margin: 20;
 }
@@ -458,7 +453,6 @@ ul {
     font-size: 25px;
     background-color: white;
     border-radius: 5px;
-    max-width: 100;
     padding: 20px 10px;
     margin: 20;
 }
@@ -520,7 +514,6 @@ ul {
     font-size: 25px;
     background-color: white;
     border-radius: 5px;
-    max-width: 100;
     padding: 20px 10px;
     margin: 20;
 }
@@ -559,7 +552,6 @@ ul {
     font-size: 25px;
     background-color: white;
     border-radius: 5px;
-    max-width: 100;
     padding: 20px 10px;
     margin: 20;
 }
@@ -644,7 +636,6 @@ transition: transform 0.3s ease-in-out;
 .texto_info h2{
     margin-bottom: 80px;
 }
-
 
 
 /* ADAPTACIONES PARA TABLETS */
@@ -738,9 +729,10 @@ transition: transform 0.3s ease-in-out;
     .quemador img,
     .ropa-masculina img,
     .ropa-femenina img {
-        width: 100%;
-        height: auto;
-        max-height: 180px;
+        object-fit: contain;
+        width: 200px;
+        height: 100px;
+        padding: 15px;
     }
 
     .lista-proteinas,
