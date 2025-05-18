@@ -1,487 +1,444 @@
+@charset "UTF-8";
 .header-image {
-    width: 100%;
-    height: 30vh;
-    align-items: stretch;
+  width: 100%;
+  height: 30vh;
+  align-items: stretch;
 }
 
 body {
-    margin: 0
+  margin: 0;
 }
 
 .nav-menu {
-    list-style: none;
-    padding: 0;
-    text-align: center;
-
+  list-style: none;
+  padding: 0;
+  text-align: center;
 }
 
 .nav-menu li {
-    display: inline-block;
-    margin: 0 15px;
+  display: inline-block;
+  margin: 0 15px;
 }
 
 .nav-menu a {
-    text-decoration: none;
-    font-size: 18px;
-    font-weight: bold;
-    color: #021e99;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  color: #021e99;
 }
 
 a {
-    text-decoration: none;
-    color: #000000;
+  text-decoration: none;
+  color: #000000;
 }
 
-
-
 /* pagina de inicio*/
-
 .center-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    height: 10vh;
-    margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 10vh;
+  margin-bottom: 100px;
+}
+.center-section img {
+  display: flex;
+  margin-top: 80px;
+  justify-content: flex-start;
 }
 
 .center-text {
-    text-align: center;
-    font-size: 25px;
-    font-weight: normal;
-    color: #000000;
-    margin: 15px 0;
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
-    background-color: #ffffff;
+  text-align: center;
+  font-size: 35px;
+  font-weight: normal;
+  color: #000000;
+  margin: 15px 0;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  margin-top: 10rem;
 }
 
 #destacados {
-    display: grid;
-    grid-template-columns: repeat(2, 2fr);
-    gap: 10px;
-    padding: 20px 10px;
-    justify-items: center;
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  gap: 10px;
+  padding: 20px 10px;
+  justify-items: center;
 }
 
 .producto-destacado {
-    text-align: center;
-    width: 100%;
-    max-width: 400px;
-    padding: 45px;
-    border: 1px solid #000000;
-    border-radius: 10px;
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
-    background-color: #ffffff;
-    transition: transform 0.3s ease-in-out;
+  text-align: center;
+  width: 100%;
+  max-width: 400px;
+  padding: 45px;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  transition: transform 0.3s ease-in-out;
 }
 
 .producto-destacado:hover {
-    transform: scale(1.02);
+  transform: scale(1.02);
 }
 
 .producto-destacado img {
-    width: 100%;
-    height: auto;
-    max-height: 200px;
-    object-fit: contain;
-    border-radius: 5px;
+  width: 100%;
+  height: auto;
+  max-height: 200px;
+  object-fit: contain;
+  border-radius: 5px;
 }
 
 .producto-destacado h3 {
-    font-size: 16px;
-    margin: 10px 0 5px;
+  font-size: 16px;
+  margin: 10px 0 5px;
 }
 
 .producto-destacado p {
-    font-size: 14px;
-    color: #3b3a3a;
-    font-weight: bold;
+  font-size: 14px;
+  color: #3b3a3a;
+  font-weight: bold;
 }
 
 body {
-    background-image: url(./imagenesinicio/imagenbg.avif);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+  background-image: url(./imagenesinicio/imagenbg.avif);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .footer {
-    background-color: rgb(182, 228, 212);
-    background-position: center;
-    text-align: center;
-    list-style-type: none;
-    text-decoration: none;
-    font-size: 18px;
-    font-weight: bold;
-    color: #000000;
+  background-position: center;
+  text-align: center;
+  list-style-type: none;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  color: #000000;
+  background-color: rgb(146, 238, 233);
 }
 
 ul {
-    list-style-type: none;
+  list-style-type: none;
 }
-
-
 
 /* pagina de marcas*/
-
 #marcas {
-    text-align: left;
-    padding: 40px 20px;
-    max-width: 900px;
-    margin: auto;
+  text-align: left;
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: auto;
 }
 
-#marcas h2 {
-    font-size: 24px;
-    margin-bottom: 20px;
-    text-align: center;
+#marcas h1 {
+  font-size: 35px;
+  margin-bottom: 20px;
+  text-align: center;
 }
 
 .lista-marcas {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .marca {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    background-color: #ffffff;
-    padding: 15px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border: 1px solid #1f2eb4;
-    transition: transform 0.3s ease-in-out;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background-color: #ffffff;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: 1px solid #1f2eb4;
+  transition: transform 0.3s ease-in-out;
 }
 
 .marca:hover {
-    transform: scale(1.02);
+  transform: scale(1.02);
 }
 
 .marca img {
-    width: 100px;
-    height: 100px;
-    object-fit: contain;
-    border-radius: 5px;
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  border-radius: 5px;
 }
 
 .marca p {
-    font-size: 16px;
-    color: #333;
-    max-width: 500px;
+  font-size: 16px;
+  color: #333;
+  max-width: 500px;
 }
 
 /* pagina de contacto*/
-
 #contactos {
-    text-align: center;
-    padding: 40px 20px;
-    max-width: 900px;
-    margin: auto;
+  text-align: center;
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: auto;
 }
 
 #h2contactos {
-    font-size: 24px;
-    margin-bottom: 20px;
-    text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
 }
 
 .lista-contactos {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .contacto {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    background-color: #ffffff;
-    padding: 15px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(129, 102, 102, 0.1);
-    border: 1px solid #0f9ee0;
-    transition: transform 0.3s ease-in-out;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background-color: #ffffff;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(129, 102, 102, 0.1);
+  border: 1px solid #0f9ee0;
+  transition: transform 0.3s ease-in-out;
 }
 
 .contacto:hover {
-    transform: scale(1.02);
+  transform: scale(1.02);
 }
 
 .contacto img {
-    width: 100px;
-    height: 100px;
-    object-fit: contain;
-    border-radius: 5px;
-
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  border-radius: 5px;
 }
 
 .contacto p {
-    font-size: 25px;
-    color: #333;
-    max-width: 500px;
-    transition: transform 0.3s ease-in-out;
-
+  font-size: 25px;
+  color: #333;
+  max-width: 500px;
+  transition: transform 0.3s ease-in-out;
 }
 
 .contacto p:hover {
-    transform: scale(1.02);
+  transform: scale(1.02);
 }
 
-
 /* pagina de suplementos*/
-
 #h1suplementos {
-    text-align: center;
-    padding: 60px 20px;
-    max-width: 1000px;
-    margin: auto;
-    margin-top: 80px;
-    margin-bottom: 80px;
-    font-size: 20px;
+  text-align: center;
+  padding: 60px 20px;
+  max-width: 1000px;
+  margin: auto;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  font-size: 20px;
 }
 
 /* proteinas*/
-
 #proteinas h2 {
-    text-align: center;
-    padding: 20px 10px;
-    margin: 20;
-    border: #ffffff;
-    border-radius: 5%;
-    background-color: #ffffff;
+  text-align: center;
+  padding: 20px 10px;
+  margin: 20;
+  border: #ffffff;
+  border-radius: 5%;
+  background-color: #ffffff;
 }
 
-.lista-proteinas {
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-    padding: 20px;
-    flex-wrap: wrap;
+.lista-proteinas { /* ejemplo de anidamiento para la corrección*/
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 20px;
+  flex-wrap: wrap;
 }
-
 .lista-proteinas h3 {
-    font-size: 16px;
-    margin: 10px 0 5px;
-
+  font-size: 16px;
+  margin: 10px 0 5px;
 }
-
 .lista-proteinas p {
-    font-size: 14px;
-    color: #3b3a3a;
-    font-weight: bold;
-   
+  font-size: 14px;
+  color: #3b3a3a;
+  font-weight: bold;
 }
 
+/*ejemplo de mixin para la corrección*/
 .proteinaswhey img {
-    object-fit: contain;
-    margin-bottom: 10px;
-    background-color: white;
-    border-radius: 10px;
-    width: 400px;
-    height: 200px;
-    transition: transform 0.3s ease-in-out;
-    flex-wrap: wrap;
-    text-align: center;
-   
+  object-fit: contain;
+  margin-bottom: 10px;
+  background-color: white;
+  border-radius: 10px;
+  width: 400px;
+  height: 200px;
+  transition: transform 0.3s ease-in-out;
+  flex-wrap: wrap;
+  text-align: center;
 }
 
 .proteinaswhey img:hover {
-    transform: scale(1.02);
+  transform: scale(1.02);
 }
 
-
-
+/*variables ejemplo para correción*/
 /*creatinas*/
-
 #creatinas h2 {
-    text-align: center;
-    font-size: 25px;
-    background-color: white;
-    border-radius: 5px;
-    padding: 20px 10px;
-    margin: 20;
+  text-align: center;
+  font-size: 25px;
+  background-color: white;
+  border-radius: 5px;
+  padding: 20px 10px;
+  margin: 20;
 }
 
-.lista-creatinas {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    flex-wrap: wrap;
+.lista-creatinas, .lista-quemadores, .lista-preentrenos, .lista-bcaa, .lista-Mass {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
 }
 
-.lista-creatinas p {
-    font-size: 14px;
-    color: #3b3a3a;
-    font-weight: bold;
+.lista-creatinas p, .lista-quemadores p, .lista-preentrenos p, .lista-bcaa p, .lista-Mass p {
+  font-size: 14px;
+  color: #3b3a3a;
+  font-weight: bold;
 }
 
 .creatinasmono img {
-    object-fit: contain;
-    width: 400px;
-    height: 200px;
-    margin-bottom: 10px;
-    background-color: white;
-    transition: transform 0.3s ease-in-out;
-    flex-wrap: wrap;
+  object-fit: contain;
+  width: 400px;
+  height: 200px;
+  margin-bottom: 10px;
+  background-color: white;
+  transition: transform 0.3s ease-in-out;
+  flex-wrap: wrap;
 }
 
 .creatinasmono img:hover {
-    transform: scale(1.02);
+  transform: scale(1.02);
 }
 
 /* Ganadores de masa*/
-
 #Ganadordemasa h2 {
-    text-align: center;
-    font-size: 25px;
-    background-color: white;
-    border-radius: 5px;
-    padding: 20px 10px;
-    margin: 20;
+  text-align: center;
+  font-size: 25px;
+  background-color: white;
+  border-radius: 5px;
+  padding: 20px 10px;
+  margin: 20;
 }
 
-.lista-Mass {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    flex-wrap: wrap;
-}
-
+/* ejemplo de extend para la corrección*/
 .lista-Mass p {
-    font-size: 14px;
-    color: #3b3a3a;
-    font-weight: bold;
+  font-size: 14px;
+  color: #3b3a3a;
+  font-weight: bold;
 }
 
 .Mass img {
-    object-fit: contain;
-    width: 400px;
-    height: 200px;
-    margin-bottom: 10px;
-    background-color: white;
-    transition: transform 0.3s ease-in-out;
-    flex-wrap: wrap;
+  object-fit: contain;
+  width: 400px;
+  height: 200px;
+  margin-bottom: 10px;
+  background-color: white;
+  transition: transform 0.3s ease-in-out;
+  flex-wrap: wrap;
 }
 
 .Mass img:hover {
-    transform: scale(1.02);
+  transform: scale(1.02);
 }
-
 
 #Bcaa h2 {
-    text-align: center;
-    font-size: 25px;
-    background-color: white;
-    border-radius: 5px;
-    padding: 20px 10px;
-    margin: 20;
-}
-
-.lista-bcaa {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    flex-wrap: wrap;
+  text-align: center;
+  font-size: 25px;
+  background-color: white;
+  border-radius: 5px;
+  padding: 20px 10px;
+  margin: 20;
 }
 
 .lista-bcaa p {
-    font-size: 14px;
-    color: #3b3a3a;
-    font-weight: bold;
+  font-size: 14px;
+  color: #3b3a3a;
+  font-weight: bold;
 }
 
 .BCAA img {
-    object-fit: contain;
-    width: 400px;
-    height: 200px;
-    margin-bottom: 10px;
-    background-color: white;
-    transition: transform 0.3s ease-in-out;
-    flex-wrap: wrap;
+  object-fit: contain;
+  width: 400px;
+  height: 200px;
+  margin-bottom: 10px;
+  background-color: white;
+  transition: transform 0.3s ease-in-out;
+  flex-wrap: wrap;
 }
 
 .BCAA img:hover {
-    transform: scale(1.02);
+  transform: scale(1.02);
 }
-
 
 #preentrenos h2 {
-    text-align: center;
-    font-size: 25px;
-    background-color: white;
-    border-radius: 5px;
-    padding: 20px 10px;
-    margin: 20;
-}
-
-.lista-preentrenos {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    flex-wrap: wrap;
+  text-align: center;
+  font-size: 25px;
+  background-color: white;
+  border-radius: 5px;
+  padding: 20px 10px;
+  margin: 20;
 }
 
 .lista-preentrenos p {
-    font-size: 14px;
-    color: #3b3a3a;
-    font-weight: bold;
+  font-size: 14px;
+  color: #3b3a3a;
+  font-weight: bold;
 }
 
 .preent img {
-    object-fit: contain;
-    width: 400px;
-    height: 200px;
-    margin-bottom: 10px;
-    background-color: white;
-    transition: transform 0.3s ease-in-out;
-    flex-wrap: wrap;
+  object-fit: contain;
+  width: 400px;
+  height: 200px;
+  margin-bottom: 10px;
+  background-color: white;
+  transition: transform 0.3s ease-in-out;
+  flex-wrap: wrap;
 }
 
 .preent img:hover {
-    transform: scale(1.02);
+  transform: scale(1.02);
 }
-
 
 #quemadordegrasa h2 {
-    text-align: center;
-    font-size: 25px;
-    background-color: white;
-    border-radius: 5px;
-    padding: 20px 10px;
-    margin: 20;
-}
-
-.lista-quemadores {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    flex-wrap: wrap;
+  text-align: center;
+  font-size: 25px;
+  background-color: white;
+  border-radius: 5px;
+  padding: 20px 10px;
+  margin: 20;
 }
 
 .lista-quemadores p {
-    font-size: 14px;
-    color: #3b3a3a;
-    font-weight: bold;
+  font-size: 14px;
+  color: #3b3a3a;
+  font-weight: bold;
 }
 
 .quemador img {
-    object-fit: contain;
-    width: 400px;
-    height: 200px;
-    margin-bottom: 10px;
-    background-color: white;
-    transition: transform 0.3s ease-in-out;
-    flex-wrap: wrap;
+  object-fit: contain;
+  width: 400px;
+  height: 200px;
+  margin-bottom: 10px;
+  background-color: white;
+  transition: transform 0.3s ease-in-out;
+  flex-wrap: wrap;
 }
 
 .quemador img:hover {
-    transform: scale(1.02);
+  transform: scale(1.02);
 }
 
 .proteinaswhey,
@@ -490,301 +447,285 @@ ul {
 .BCAA,
 .preent,
 .quemador {
-    text-align: center;
-    max-width: 1000px;
-    background-color: white;
-    padding: 20px;
-    border: 20px;
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
-    border: 5px solid rgb(207, 207, 224);
+  text-align: center;
+  max-width: 1000px;
+  background-color: white;
+  padding: 20px;
+  border: 20px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  border: 5px solid rgb(207, 207, 224);
 }
 
 /* pagina de indumentaria*/
-
 #indumentaria {
-    text-align: center;
-    font-size: 25px;
-    margin-top: 80px;
-    margin-bottom: 80px;
+  text-align: center;
+  font-size: 25px;
+  margin-top: 80px;
+  margin-bottom: 80px;
 }
 
 /* ropa masculina*/
 #indumentaria-hombre h2 {
-    text-align: center;
-    font-size: 25px;
-    background-color: white;
-    border-radius: 5px;
-    padding: 20px 10px;
-    margin: 20;
+  text-align: center;
+  font-size: 25px;
+  background-color: white;
+  border-radius: 5px;
+  padding: 20px 10px;
+  margin: 20;
 }
 
 .lista-masculina {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
 }
 
 .lista-masculina p {
-    font-size: 14px;
-    color: #3b3a3a;
-    font-weight: bold;
+  font-size: 14px;
+  color: #3b3a3a;
+  font-weight: bold;
 }
 
 .ropa-masculina img {
-    object-fit: contain;
-    width: 400px;
-    height: 200px;
-    margin-bottom: 10px;
-    background-color: white;
-    transition: transform 0.3s ease-in-out;
-    flex-wrap: wrap;
+  object-fit: contain;
+  width: 400px;
+  height: 200px;
+  margin-bottom: 10px;
+  background-color: white;
+  transition: transform 0.3s ease-in-out;
+  flex-wrap: wrap;
 }
 
 .ropa-masculina img:hover {
-    transform: scale(1.02);
+  transform: scale(1.02);
 }
-
 
 /* ropa femenina*/
 #indumentaria-mujer h2 {
-    text-align: center;
-    font-size: 25px;
-    background-color: white;
-    border-radius: 5px;
-    padding: 20px 10px;
-    margin: 20;
+  text-align: center;
+  font-size: 25px;
+  background-color: white;
+  border-radius: 5px;
+  padding: 20px 10px;
+  margin: 20;
 }
 
 .lista-femenina {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
 }
 
 .lista-femenina p {
-    font-size: 14px;
-    color: #3b3a3a;
-    font-weight: bold;
+  font-size: 14px;
+  color: #3b3a3a;
+  font-weight: bold;
 }
+
 .ropa-femenina img {
-    object-fit: contain;
-    width: 400px;
-    height: 200px;
-    margin-bottom: 10px;
-    background-color: white;
-    transition: transform 0.3s ease-in-out;
-    flex-wrap: wrap;
+  object-fit: contain;
+  width: 400px;
+  height: 200px;
+  margin-bottom: 10px;
+  background-color: white;
+  transition: transform 0.3s ease-in-out;
+  flex-wrap: wrap;
 }
 
 .ropa-femenina img:hover {
-    transform: scale(1.02);
+  transform: scale(1.02);
 }
 
-.ropa-masculina, .ropa-femenina{
-text-align: center;
-max-width: 1000px;
-background-color: white;
-padding: 20px;
-border: 20px;
-box-shadow: 0 3px 6px rgba(7, 3, 252, 0.1);
-border: 5px solid rgb(188, 188, 236);
+.ropa-masculina,
+.ropa-femenina {
+  text-align: center;
+  max-width: 1000px;
+  background-color: white;
+  padding: 20px;
+  border: 20px;
+  box-shadow: 0 3px 6px rgba(7, 3, 252, 0.1);
+  border: 5px solid rgb(188, 188, 236);
 }
-
 
 /* sub_paginas suplementos*/
-
-.productosubpagina{
-    display: grid;
-    grid-template-columns: auto auto;
-    text-align: center;
-    margin: auto;
-    margin-top: 60px;
-    padding: 20px;
+.productosubpagina {
+  display: grid;
+  grid-template-columns: auto auto;
+  text-align: center;
+  margin: auto;
+  margin-top: 60px;
+  padding: 20px;
 }
 
-.productosubpagina img{
-    background-color: #ddd;
-    border-radius: 10px;
-    box-shadow: 0 3px 6px rgba(7, 3, 252, 0.1);
-border: 2px solid rgba(192, 192, 201, 0.658);
-transition: transform 0.3s ease-in-out;
+.productosubpagina img {
+  background-color: #ddd;
+  border-radius: 10px;
+  box-shadow: 0 3px 6px rgba(7, 3, 252, 0.1);
+  border: 2px solid rgba(192, 192, 201, 0.658);
+  transition: transform 0.3s ease-in-out;
 }
 
-.subpaginaimagen img{
-    width: 400px;
-    height: 400px;
-    object-fit: contain;
-    display: block;
-    background-color: rgb(255, 255, 255);
-    min-height: 500px;
-    margin: auto auto;
+.subpaginaimagen img {
+  width: 400px;
+  height: 400px;
+  object-fit: contain;
+  display: block;
+  background-color: rgb(255, 255, 255);
+  min-height: 500px;
+  margin: auto auto;
 }
-.texto_info{
-    background-color: #ffffff;
-    border-radius: 10px;
-    box-shadow: 0 3px 6px rgba(7, 3, 252, 0.1);
-    border: 2px solid rgba(192, 192, 201, 0.658);
-    transition: transform 0.3s ease-in-out;
-    min-height: 400px;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: contain;
+
+.texto_info {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 3px 6px rgba(7, 3, 252, 0.1);
+  border: 2px solid rgba(192, 192, 201, 0.658);
+  transition: transform 0.3s ease-in-out;
+  min-height: 400px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: contain;
 }
 
 .productosubpagina img:hover {
-    transform: scale(1.02);
+  transform: scale(1.02);
 }
 
 .texto_info:hover {
-    transform: scale(1.02);
+  transform: scale(1.02);
 }
 
-.texto_info h2{
-    margin-bottom: 80px;
+.texto_info h2 {
+  margin-bottom: 80px;
 }
-
 
 /* ADAPTACIONES PARA TABLETS */
 @media (max-width: 1024px) {
-    .nav-menu li {
-        margin: 8px 10px;
-    }
-
-    #destacados {
-        grid-template-columns: 1fr 1fr;
-    }
-
-    .producto-destacado {
-        max-width: 90%;
-        padding: 20px;
-    }
-
-    .marca, .contacto {
-        flex-direction: row;
-        text-align: left;
-    }
-
-    .marca img, .contacto img {
-        width: 90px;
-        height: 90px;
-    }
-
-    .lista-proteinas,
-    .lista-creatinas,
-    .lista-Mass,
-    .lista-bcaa,
-    .lista-preentrenos,
-    .lista-quemadores,
-    .lista-masculina,
-    .lista-femenina {
-        justify-content: center;
-        gap: 15px;
-    }
-
-    .proteinaswhey img,
-    .creatinasmono img,
-    .Mass img,
-    .BCAA img,
-    .preent img,
-    .quemador img,
-    .ropa-masculina img,
-    .ropa-femenina img {
-        width: 90%;
-        height: auto;
-        max-height: 200px;
-    }
-
-    .productosubpagina {
-        grid-template-columns: 1fr;
-        width: 90%;
-    }
+  .nav-menu li {
+    margin: 8px 10px;
+  }
+  #destacados {
+    grid-template-columns: 1fr 1fr;
+  }
+  .producto-destacado {
+    max-width: 90%;
+    padding: 20px;
+  }
+  .marca,
+  .contacto {
+    flex-direction: row;
+    text-align: left;
+  }
+  .marca img,
+  .contacto img {
+    width: 90px;
+    height: 90px;
+  }
+  .lista-proteinas,
+  .lista-creatinas,
+  .lista-Mass,
+  .lista-bcaa,
+  .lista-preentrenos,
+  .lista-quemadores,
+  .lista-masculina,
+  .lista-femenina {
+    justify-content: center;
+    gap: 15px;
+  }
+  .proteinaswhey img,
+  .creatinasmono img,
+  .Mass img,
+  .BCAA img,
+  .preent img,
+  .quemador img,
+  .ropa-masculina img,
+  .ropa-femenina img {
+    width: 90%;
+    height: auto;
+    max-height: 200px;
+  }
+  .productosubpagina {
+    grid-template-columns: 1fr;
+    width: 90%;
+  }
 }
-
 /* ADAPTACIONES PARA CELULARES */
 @media (max-width: 768px) {
-    .nav-menu li {
-        display: block;
-        margin: 10px 0;
-    }
-
-    .producto-destacado {
-        max-width: 95%;
-        padding: 15px;
-    }
-
-    #destacados {
-        grid-template-columns: 1fr;
-    }
-
-    .marca, .contacto {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
-
-    .marca img, .contacto img {
-        width: 80px;
-        height: 80px;
-    }
-
-    .proteinaswhey img,
-    .creatinasmono img,
-    .Mass img,
-    .BCAA img,
-    .preent img,
-    .quemador img,
-    .ropa-masculina img,
-    .ropa-femenina img {
-        object-fit: contain;
-        width: 200px;
-        height: 100px;
-        padding: 15px;
-    }
-
-    .lista-proteinas,
-    .lista-creatinas,
-    .lista-Mass,
-    .lista-bcaa,
-    .lista-preentrenos,
-    .lista-quemadores,
-    .lista-masculina,
-    .lista-femenina {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .productosubpagina {
-        grid-template-columns: 1fr;
-        width: 95%;
-    }
-
-    .productosubpagina img {
-        width: 100%;
-    }
+  .nav-menu li {
+    display: block;
+    margin: 10px 0;
+  }
+  .producto-destacado {
+    max-width: 95%;
+    padding: 15px;
+  }
+  #destacados {
+    grid-template-columns: 1fr;
+  }
+  .marca,
+  .contacto {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .marca img,
+  .contacto img {
+    width: 80px;
+    height: 80px;
+  }
+  .proteinaswhey img,
+  .creatinasmono img,
+  .Mass img,
+  .BCAA img,
+  .preent img,
+  .quemador img,
+  .ropa-masculina img,
+  .ropa-femenina img {
+    object-fit: contain;
+    width: 200px;
+    height: 100px;
+    padding: 15px;
+  }
+  .lista-proteinas,
+  .lista-creatinas,
+  .lista-Mass,
+  .lista-bcaa,
+  .lista-preentrenos,
+  .lista-quemadores,
+  .lista-masculina,
+  .lista-femenina {
+    flex-direction: column;
+    align-items: center;
+  }
+  .productosubpagina {
+    grid-template-columns: 1fr;
+    width: 95%;
+  }
+  .productosubpagina img {
+    width: 100%;
+  }
 }
-
 /* ADAPTACIONES PARA CELULARES MUY PEQUEÑOS */
 @media (max-width: 480px) {
-    .center-text {
-        font-size: 18px;
-    }
-
-    .producto-destacado h3 {
-        font-size: 14px;
-    }
-
-    .producto-destacado p {
-        font-size: 12px;
-    }
-
-    .marca p, .contacto p {
-        font-size: 14px;
-    }
-
-    .texto_info h2 {
-        font-size: 20px;
-    }
+  .center-text {
+    font-size: 18px;
+  }
+  .producto-destacado h3 {
+    font-size: 14px;
+  }
+  .producto-destacado p {
+    font-size: 12px;
+  }
+  .marca p,
+  .contacto p {
+    font-size: 14px;
+  }
+  .texto_info h2 {
+    font-size: 20px;
+  }
 }
+
+/*# sourceMappingURL=style.css.map */
