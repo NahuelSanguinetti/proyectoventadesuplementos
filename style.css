@@ -602,58 +602,111 @@ ul {
   margin-bottom: 80px;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 900px) {
+  #destacados,
+  .lista-marcas,
   .lista-proteinas,
   .lista-creatinas,
   .lista-Mass,
   .lista-bcaa,
   .lista-preentrenos,
-  .lista-quemadores {
+  .lista-quemadores,
+  .lista-masculina,
+  .lista-femenina {
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+  .productosubpagina {
     flex-direction: column;
     align-items: center;
   }
-  .proteinaswhey img,
-  .creatinasmono img,
-  .Mass img,
-  .BCAA img,
-  .preent img,
-  .quemador img {
-    width: 30rem;
-    height: 30rem;
-  }
 }
-@media (max-width: 576px) {
-  #h1suplementos h1 {
-    font-size: 18px;
-    padding: 20px;
+@media (max-width: 600px) {
+  .header-image {
+    height: 12vh;
+    min-height: 80px;
   }
-  h2 {
-    font-size: 20px;
+  .nav-menu {
+    padding: 0;
   }
-  h3 {
+  .nav-menu li {
+    display: block;
+    margin: 10px 0;
+  }
+  .nav-menu a {
     font-size: 16px;
   }
-  p {
-    font-size: 14px;
+  #destacados,
+  .lista-marcas,
+  .lista-proteinas,
+  .lista-creatinas,
+  .lista-Mass,
+  .lista-bcaa,
+  .lista-preentrenos,
+  .lista-quemadores,
+  .lista-masculina,
+  .lista-femenina {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    padding: 0 2vw;
   }
+  .producto-destacado,
+  .marca,
   .proteinaswhey,
   .creatinasmono,
-  .Mass,
-  .BCAA,
-  .preent,
-  .quemador {
+  .ropa-masculina,
+  .ropa-femenina,
+  .contacto {
+    max-width: 98vw;
     padding: 10px;
-    margin-bottom: 20px;
-    width: 100%;
+    margin: 0 auto 15px auto;
   }
-  .proteinaswhey img,
-  .creatinasmono img,
-  .Mass img,
-  .BCAA img,
-  .preent img,
-  .quemador img {
-    width: 100%;
+  .productosubpagina {
+    flex-direction: column;
+    align-items: center;
+    padding: 5vw 0;
+  }
+  .subpaginaimagen img {
+    width: 85vw;
+    max-width: 300px;
     height: auto;
+  }
+  .texto_info {
+    padding: 0 5vw;
+    font-size: 1rem;
+  }
+  .center-text {
+    font-size: 18px;
+    margin-top: 2.5rem;
+  }
+  .footer {
+    font-size: 13px;
+    padding: 10px 0;
+  }
+  #footer ul {
+    padding: 0;
+  }
+  h1, h2, h3 {
+    font-size: 1.2em;
+  }
+  p {
+    font-size: 0.96em;
+  }
+}
+@media (max-width: 400px) {
+  .header-image {
+    height: 8vh;
+    min-height: 48px;
+  }
+  .footer {
+    font-size: 11px;
+  }
+  h1, h2, h3 {
+    font-size: 1em;
+  }
+  .center-text {
+    font-size: 14px;
   }
 }
 
