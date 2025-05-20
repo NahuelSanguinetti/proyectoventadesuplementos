@@ -777,7 +777,7 @@ $margin: 20;
 }
 
 
-// --- Responsividad para página Contacto ---
+//  Responsividad para página Contacto 
 
 @media (max-width: 900px) {
   .lista-contactos {
@@ -852,5 +852,52 @@ $margin: 20;
   }
   #h2contactos h2 {
     font-size: 0.98rem;
+  }
+}
+
+
+// Responsividad para subpaginas suplementos
+
+// Hasta 900px: ya puedes apilar en columna si lo prefieres
+@media (max-width: 900px) {
+  .productosubpagina {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+    padding: 0 2vw;
+  }
+  .subpaginaimagen {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .subpaginaimagen img {
+    width: 80vw;
+    max-width: 350px;
+    height: auto;
+    border-radius: 8px;
+  }
+  .texto_info {
+    padding: 0 1vw;
+    text-align: center;
+    font-size: 1rem;
+  }
+}
+
+// Hasta 600px: aún más compacto para móviles
+@media (max-width: 600px) {
+  .productosubpagina {
+    gap: 12px;
+    padding: 0 1vw;
+  }
+  .subpaginaimagen img {
+    width: 95vw;
+    max-width: 98vw;
+    min-width: 180px;
+  }
+  .texto_info {
+    font-size: 0.98rem;
+    padding: 0 2vw;
   }
 }

@@ -782,5 +782,45 @@ ul {
     font-size: 0.98rem;
   }
 }
+@media (max-width: 900px) {
+  .productosubpagina {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+    padding: 0 2vw;
+  }
+  .subpaginaimagen {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .subpaginaimagen img {
+    width: 80vw;
+    max-width: 350px;
+    height: auto;
+    border-radius: 8px;
+  }
+  .texto_info {
+    padding: 0 1vw;
+    text-align: center;
+    font-size: 1rem;
+  }
+}
+@media (max-width: 600px) {
+  .productosubpagina {
+    gap: 12px;
+    padding: 0 1vw;
+  }
+  .subpaginaimagen img {
+    width: 95vw;
+    max-width: 98vw;
+    min-width: 180px;
+  }
+  .texto_info {
+    font-size: 0.98rem;
+    padding: 0 2vw;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
