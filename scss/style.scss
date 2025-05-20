@@ -858,7 +858,7 @@ $margin: 20;
 
 // Responsividad para subpaginas suplementos
 
-// Hasta 900px: ya puedes apilar en columna si lo prefieres
+// Hasta 900px:
 @media (max-width: 900px) {
   .productosubpagina {
     display: flex;
@@ -885,7 +885,7 @@ $margin: 20;
   }
 }
 
-// Hasta 600px: aún más compacto para móviles
+// Hasta 600px:para móviles
 @media (max-width: 600px) {
   .productosubpagina {
     gap: 12px;
