@@ -1,8 +1,9 @@
 @charset "UTF-8";
 .header-image {
-  width: 100%;
+  width: auto;
   height: 30vh;
   align-items: stretch;
+  object-fit: cover;
 }
 
 body {
@@ -117,14 +118,51 @@ body {
 }
 
 .footer {
-  background-position: center;
-  text-align: center;
-  list-style-type: none;
+  background: linear-gradient(90deg, #92eee9 0%, #0766f5 100%);
+  color: #202020;
+  padding: 32px 0 16px 0;
+  font-size: 17px;
+  font-weight: 400;
+  margin-top: 32px;
+}
+.footer .footer-contenido {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+.footer .footer-links {
+  display: flex;
+  gap: 32px;
+}
+.footer .footer-links a {
+  color: #1a1a1a;
   text-decoration: none;
-  font-size: 18px;
-  font-weight: bold;
-  color: #000000;
-  background-color: rgb(146, 238, 233);
+  font-weight: 600;
+  transition: color 0.3s;
+}
+.footer .footer-links a:hover {
+  color: #0a8aad;
+  text-decoration: underline;
+}
+.footer .footer-social {
+  display: flex;
+  gap: 24px;
+}
+.footer .footer-social a img {
+  width: 32px;
+  height: 32px;
+  filter: grayscale(30%);
+  transition: filter 0.3s, transform 0.3s;
+}
+.footer .footer-social a img:hover {
+  filter: grayscale(0) brightness(1.2);
+  transform: scale(1.15) rotate(-8deg);
+}
+.footer .footer-copy p {
+  font-size: 14px;
+  color: #444;
+  margin: 0;
 }
 
 ul {
@@ -133,7 +171,6 @@ ul {
 
 /* pagina de marcas*/
 #marcas {
-  text-align: left;
   padding: 40px 20px;
   max-width: 900px;
   margin: auto;
@@ -149,6 +186,7 @@ ul {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  text-align: center;
 }
 
 .marca {
@@ -161,6 +199,7 @@ ul {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border: 1px solid #1f2eb4;
   transition: transform 0.3s ease-in-out;
+  text-align: center;
 }
 
 .marca:hover {
@@ -172,12 +211,14 @@ ul {
   height: 100px;
   object-fit: contain;
   border-radius: 5px;
+  align-content: center;
 }
 
 .marca p {
   font-size: 16px;
   color: #333;
   max-width: 500px;
+  text-align: center;
 }
 
 /* pagina de contacto*/
@@ -255,7 +296,8 @@ ul {
   background-color: #ffffff;
 }
 
-.lista-proteinas { /* ejemplo de anidamiento para la corrección*/
+.lista-proteinas {
+  /* ejemplo de anidamiento para la corrección*/
   display: flex;
   justify-content: center;
   gap: 30px;
@@ -691,7 +733,9 @@ ul {
   #footer ul {
     padding: 0;
   }
-  h1, h2, h3 {
+  h1,
+  h2,
+  h3 {
     font-size: 1.2em;
   }
   p {
@@ -706,7 +750,9 @@ ul {
   .footer {
     font-size: 11px;
   }
-  h1, h2, h3 {
+  h1,
+  h2,
+  h3 {
     font-size: 1em;
   }
   .center-text {
@@ -730,7 +776,8 @@ ul {
     display: block;
     margin: 10px 0;
   }
-  #h1contactos h1, h2 {
+  #h1contactos h1,
+  h2 {
     font-size: 1.1rem;
     padding: 0 2vw;
     text-align: center;
@@ -782,7 +829,8 @@ ul {
   .contacto p {
     font-size: 0.93rem;
   }
-  #h1contactos h1, h2 {
+  #h1contactos h1,
+  h2 {
     font-size: 0.98rem;
   }
 }
@@ -824,6 +872,42 @@ ul {
   .texto_info {
     font-size: 0.98rem;
     padding: 0 2vw;
+  }
+}
+@media (max-width: 600px) {
+  .footer {
+    padding: 20px 0 10px 0;
+    font-size: 15px;
+  }
+  .footer .footer-content {
+    gap: 10px;
+  }
+  .footer .footer-links {
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+  }
+  .footer .footer-social {
+    gap: 10px;
+  }
+  .footer .footer-social a img {
+    width: 24px;
+    height: 24px;
+  }
+  .footer .footer-copy p {
+    font-size: 12px;
+  }
+}
+@media (max-width: 400px) {
+  .footer {
+    font-size: 12px;
+    padding: 12px 0 6px 0;
+  }
+  .footer .footer-links a {
+    font-size: 13px;
+  }
+  .footer .footer-copy p {
+    font-size: 10px;
   }
 }
 
