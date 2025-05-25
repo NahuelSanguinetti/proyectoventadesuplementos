@@ -27,6 +27,10 @@ body {
   color: #021e99;
 }
 
+.nav-menu :hover {
+  color: #f50000;
+}
+
 a {
   text-decoration: none;
   color: #000000;
@@ -184,7 +188,7 @@ ul {
   margin: auto;
 }
 
-#h2contactos {
+#h1contactos {
   font-size: 24px;
   margin-bottom: 20px;
   text-align: center;
@@ -726,7 +730,7 @@ ul {
     display: block;
     margin: 10px 0;
   }
-  #h2contactos h2 {
+  #h1contactos h1, h2 {
     font-size: 1.1rem;
     padding: 0 2vw;
     text-align: center;
@@ -778,7 +782,7 @@ ul {
   .contacto p {
     font-size: 0.93rem;
   }
-  #h2contactos h2 {
+  #h1contactos h1, h2 {
     font-size: 0.98rem;
   }
 }
