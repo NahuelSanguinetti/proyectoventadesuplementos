@@ -8,7 +8,6 @@
   max-height: 320px;
   object-position: center;
   display: block;
-  background-color: #f6fafe;
 }
 
 body {
@@ -796,23 +795,20 @@ ul {
     word-break: break-all;
   }
 }
-@media (max-width: 400px) {
-  .header-image {
-    height: 7vh;
-    min-height: 40px;
-  }
-  .contacto img {
-    width: 33px;
-    height: 33px;
-  }
-  .contacto p {
-    font-size: 0.93rem;
-  }
-  #h1contactos h1,
-  h2 {
-    font-size: 0.98rem;
-  }
+.contacto img {
+  width: 33px;
+  height: 33px;
 }
+
+.contacto p {
+  font-size: 0.93rem;
+}
+
+#h1contactos h1,
+h2 {
+  font-size: 0.98rem;
+}
+
 @media (max-width: 900px) {
   .productosubpagina {
     display: flex;
@@ -887,6 +883,33 @@ ul {
   }
   .footer .footer-copy p {
     font-size: 10px;
+  }
+}
+/* Tablet: menos de 900px */
+@media (max-width: 900px) {
+  .header-image {
+    height: 18vh;
+    min-height: 60px;
+    max-height: 140px;
+    border-radius: 0 0 10px 10px;
+  }
+}
+/* Móvil: menos de 600px */
+@media (max-width: 600px) {
+  .header-image {
+    height: 14vh;
+    min-height: 50px;
+    max-height: 80px;
+    border-radius: 0 0 7px 7px;
+  }
+}
+/* Móvil pequeño: menos de 400px */
+@media (max-width: 400px) {
+  .header-image {
+    height: 10vh;
+    min-height: 36px;
+    max-height: 54px;
+    border-radius: 0 0 4px 4px;
   }
 }
 

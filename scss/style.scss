@@ -7,7 +7,6 @@ width: 100vw;
   max-height: 320px;
   object-position: center;
   display: block;
-  background-color: #f6fafe;
 }
 
 
@@ -892,13 +891,6 @@ $margin: 20;
 
   }
 
-
-@media (max-width: 400px) {
-  .header-image {
-    height: 7vh;
-    min-height: 40px;
-  }
-
   .contacto img {
     width: 33px;
     height: 33px;
@@ -912,7 +904,6 @@ $margin: 20;
   h2 {
     font-size: 0.98rem;
   }
-}
 
 
 // Responsividad para subpaginas suplementos
@@ -1013,5 +1004,37 @@ $margin: 20;
 
   .footer .footer-copy p {
     font-size: 10px;
+  }
+}
+
+// media queries de imagen header
+
+/* Tablet: menos de 900px */
+@media (max-width: 900px) {
+  .header-image {
+    height: 18vh;
+    min-height: 60px;
+    max-height: 140px;
+    border-radius: 0 0 10px 10px;
+  }
+}
+
+/* Móvil: menos de 600px */
+@media (max-width: 600px) {
+  .header-image {
+    height: 14vh;
+    min-height: 50px;
+    max-height: 80px;
+    border-radius: 0 0 7px 7px;
+  }
+}
+
+/* Móvil pequeño: menos de 400px */
+@media (max-width: 400px) {
+  .header-image {
+    height: 10vh;
+    min-height: 36px;
+    max-height: 54px;
+    border-radius: 0 0 4px 4px;
   }
 }
